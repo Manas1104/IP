@@ -1,13 +1,13 @@
 {
   "type": "service_account",
-  "project_id": "manas-vlav",
-  "private_key_id": "a3997f0be8e24e07243ded0c465b60b07299e29e",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCRadP1xAgmMpeP\n+U7+kXfJPA4Jl09rctoBZXIMAFCH3xvW7Dgizm1sz1lHNAmLHvw8YXq9rvUbdDEg\nCtwX5rIlenu+hj24cr54iEpbiK8RymzzhLLRV8ycMmso9Mi0g87Lw6ZsYUC1+97G\nnu39GFIhkF6OxHQSwwjH7E176YfKMXiQtEXtaBqRXX1MsMl5m21ARFyLZA1T8yNE\nhpnqlgz9BO4CZtLrVtkRUWhdWaiDZNlh8ngk6Gqd/pm1VuoMDA6/TBGtfrgQ9P8U\nFKY9OX0msJM5bxpgXYN4ixInqGWjSghqjjwnV1rzmIpGfqdAlYXvQEgyczr6gAGH\n4Hk258nBAgMBAAECggEAMJKkqlYqkLPam82f/PoThMVKPRrtfQtW1huQXoDmZZR5\nxK+QStQgijWy8U1pGK8ne3XmXaEpH9wOotDt1xAJFurUlf5adJfjlviTugKs1CkF\nfsynPLVy1AQldn9Z4a6br8XxfAd6aa+yKS+ieKYcnTiP1Wm7Ch9a+gktksQdx0SB\nRAbwa1SbCtHCk7958S2ije1RMjHxUG0/p0tcMV8UruBAaLh4Btp7qiKpNCG5VaTx\n4dCjAyd+TpwggVWFP4is6R8BFhwoNzCJEWnk6oMtq1MqNyyfqs0Cp7cBMOGO2zDi\nsopfHIMOmvTA0uq+BabdFnC7Qw17iqBbrWwUDkaoLwKBgQDDh/rInQno0tbfMAIj\nAiK3RAaAaiSCMGrLsDytkTVv2dm4s6lE0KW7y+Ez2YeH9BY0bCVcA5V8Ed1XNRyv\nz63xvXDGJb2VVEPn+gqXVeqdGXfGGKZHdiY6SsrPCwLU2Oc/7CVAUS/AK2XGG1IP\nxL5qVNwx9bv15CEpLvFdEC9BJwKBgQC+YhIJka3JEOInZmIdzXH3b6VPSugW7MxE\nFzQON9vtQnN62jL41nr9AArF380U5AP6Rt0yceDVZG3vrCfiabfOpdxSWjiKKTKi\nPmn+Azn8zqemCWpy8tyTYu2DabOheB2RRoGFmvgentUSBQuFjtspsNt5iiOmK4U0\nLuiUQC6e1wKBgEiiRbWqKFk1oR4tfk206GJ9wZCIXWGDTNi3cgLj0x7mpSsoijOG\n8lntpY2WO/Nz55+3oLUqm6gIFtnjX/GrSylmvvLMaD2FnOgaiT6oasvK/yQ2WeZn\n7FFxIR+CLp4UqOqk9T2MKxnOxTKvSW+UHUvwlA93AkiYYv0idASnE3a3AoGAPmYW\nU1yUARqvhQphjjMP73GAVQTQHPNv38FbJm3Yf2MQRmvN2REzLkkdPs2jgf1Z8GXZ\nifcZIdfQ0IU0bVkJDYn/NF6tuVrXZaXfR4n3L4zsFddwNEy1TvlVr4Stg3bC+iKJ\nwSiRujeEzmso45V276svxB4qoQQSnI/jWvPOU/ECgYAmmcE+82/zNmR/mZHPv0nP\nRH65rO0IJG3pMq61qiBsX9NQl+Kb74DEL7rHC4Wu3q3ub1KhjA/fcxH8J8t6UTQa\nKphXBEg6DcbCUittYsSnLD0iP+vUtx3DVO/diHAAMtQIpAjTPeG+sRjxAAlCI9Zc\n87al+KfKn13Wy9tmTiuLOg==\n-----END PRIVATE KEY-----\n",
-  "client_email": "manass@manas-vlav.iam.gserviceaccount.com",
+  "project_id": "man-vlav",
+  "private_key_id": "a3997f0be8c465b299e29e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\n87al+KfKnLOg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "maiam.gservicent.com",
   "client_id": "110929538907476726708",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_uri": "https://accounts.google.h2/auth",
+  "token_uri": "https://oauth2com/token",
   "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/manass%40manas-vlav.iam.gserviceaccount.com",
+  "client_x509_cert_url": "https://www.googleapis.unt.com",
   "universe_domain": "googleapis.com"
 }
