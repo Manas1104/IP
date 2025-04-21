@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Manas-Vlav Chatbot</title>
+  <style>
+    body { font-family: Arial; padding: 20px; background: #f0f0f0; }
+    #chat-box { border: 1px solid #ccc; background: #fff; padding: 10px; height: 300px; overflow-y: auto; }
+    .user { color: blue; margin-top: 10px; }
+    .bot { color: green; margin-bottom: 10px; }
+  </style>
+</head>
+<body>
+  <h2>Chat with Manas-Vlav</h2>
+  <div id="chat-box"></div>
+  <input type="text" id="user-input" placeholder="Type here..." autofocus />
+  <button onclick="sendMessage()">Send</button>
+
+  <script>
+    async function sendMessage() {
+      const input = document.getElementById('user-input');
+      const message = input.value;
+      if (!message) return;
+
+      const chatBox = document.getElementById('chat-box');
+      chatBox.innerHTML += `<div class="user"><b>You:</b> ${message}</div>`;
+
+      const res = await fetch('/chat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ message })
+      });
+
+      const data = await res.json();
+      chatBox.innerHTML += `<div class="bot"><b>Bot:</b> ${data.reply}</div>`;
+      input.value = '';
+      chatBox.scrollTop = chatBox.scrollHeight;
+    }
+  </script>
+</body>
+</html>
